@@ -5,7 +5,7 @@
 
 #define IOKIT	1	/* to get io_name_t in device_types.h */
 
-#include <IOKit/IOKitLib.h>
+#include <IOKitLib.h>
 #include <IOKit/storage/IOBlockStorageDriver.h>
 #include <IOKit/storage/IOMedia.h>
 #include <IOKit/IOBSD.h>
