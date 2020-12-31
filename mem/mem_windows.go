@@ -6,7 +6,7 @@ import (
 	"context"
 	"unsafe"
 
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/Hellyna/gopsutil/internal/common"
 	"golang.org/x/sys/windows"
 )
 

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
+	"github.com/Hellyna/gopsutil/v3/internal/common"
 	"golang.org/x/sys/unix"
 )
 

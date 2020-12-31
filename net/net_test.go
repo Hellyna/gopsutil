@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/Hellyna/gopsutil/internal/common"
 )
 
 func skipIfNotImplementedErr(t *testing.T, err error) {

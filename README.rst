@@ -1,14 +1,14 @@
 gopsutil: psutil for golang
 ==============================
 
-.. image:: https://circleci.com/gh/shirou/gopsutil.svg?&style=shield
-        :target: https://circleci.com/gh/shirou/gopsutil
+.. image:: https://circleci.com/gh/Hellyna/gopsutil.svg?&style=shield
+        :target: https://circleci.com/gh/Hellyna/gopsutil
 
-.. image:: https://coveralls.io/repos/shirou/gopsutil/badge.svg?branch=master
-        :target: https://coveralls.io/r/shirou/gopsutil?branch=master
+.. image:: https://coveralls.io/repos/Hellyna/gopsutil/badge.svg?branch=master
+        :target: https://coveralls.io/r/Hellyna/gopsutil?branch=master
 
-.. image:: https://godoc.org/github.com/shirou/gopsutil?status.svg
-        :target: http://godoc.org/github.com/shirou/gopsutil
+.. image:: https://godoc.org/github.com/Hellyna/gopsutil?status.svg
+        :target: http://godoc.org/github.com/Hellyna/gopsutil
 
 This is a port of psutil (https://github.com/giampaolo/psutil). The challenge is porting all
 psutil functions on some architectures.
@@ -63,8 +63,8 @@ Usage
    import (
        "fmt"
 
-       "github.com/shirou/gopsutil/v3/mem"
-       // "github.com/shirou/gopsutil/mem"  // to use v2
+       "github.com/Hellyna/gopsutil/v3/mem"
+       // "github.com/Hellyna/gopsutil/mem"  // to use v2
    )
 
    func main() {
@@ -100,7 +100,7 @@ You can set an alternative location to :code:`/dev` by setting the :code:`HOST_D
 Documentation
 ------------------------
 
-see http://godoc.org/github.com/shirou/gopsutil
+see http://godoc.org/github.com/Hellyna/gopsutil
 
 Requirements
 -----------------

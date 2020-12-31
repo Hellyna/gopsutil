@@ -5,7 +5,7 @@ package host
 import (
 	"context"
 
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/Hellyna/gopsutil/internal/common"
 )
 
 func HostIDWithContext(ctx context.Context) (string, error) {
