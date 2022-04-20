@@ -3,8 +3,11 @@ module github.com/Hellyna/gopsutil/v3
 go 1.15
 
 require (
-	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d
-	github.com/go-ole/go-ole v1.2.4 // indirect
-	github.com/stretchr/testify v1.6.1
-	golang.org/x/sys v0.0.0-20201024232916-9f70ab9862d5
+	github.com/StackExchange/wmi v1.2.1
+	github.com/google/go-cmp v0.5.6
+	github.com/go-ole/go-ole v1.2.6 // indirect
+	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0
+	github.com/stretchr/testify v1.7.0
+	github.com/tklauser/go-sysconf v0.3.9
+	golang.org/x/sys v0.0.0-20211013075003-97ac67df715c
 )
